@@ -91,4 +91,8 @@
     h2 {
         font-size: 40px;
     }
+    .email_button:hover {
+        width: 205px;
+        height: 42px;
+    }
 }

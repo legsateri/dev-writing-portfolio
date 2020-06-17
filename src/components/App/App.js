@@ -2,6 +2,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 ////////////////////////////////////////////////////////////////////////////////
+import Footer from '../Footer/Footer';
 import Navigation from '../Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
@@ -17,6 +18,8 @@ function App() {
         path={'/'}
         component={About}
       />
+
+      <Footer />
     </main>
   );
 }
