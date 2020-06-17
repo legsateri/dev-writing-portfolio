@@ -29,4 +29,7 @@
     .link_style:hover {
         color: white;
     }
+    li {
+        font-size: 18px;
+    }
 }

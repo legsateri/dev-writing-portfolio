@@ -14,8 +14,4 @@
   }
 }
 
-@media only screen and (min-width: 750px) {
-  body {
-    font-size: 18px;
-  }
-}
+@media only screen and (min-width: 750px) {}
