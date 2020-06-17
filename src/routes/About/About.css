@@ -3,7 +3,7 @@
         text-align: center;
     }
     header {
-        padding-top: 50px;
+        padding-top: 75px;
     }
     h1 {
         font-family: lust-script, sans-serif;
@@ -14,6 +14,9 @@
     .line_height {
         line-height: 40px;
     }
+    img{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -22,5 +25,8 @@
     }
     h1 {
         font-size: 60px;
+    }
+    img{
+        width: 90%;
     }
 }

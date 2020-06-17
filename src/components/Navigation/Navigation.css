@@ -17,6 +17,9 @@
     .link_style:visited {
         color: black;
     }
+    li {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (min-width: 750px) {
