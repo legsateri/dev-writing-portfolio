@@ -4,17 +4,26 @@
         padding: 0;
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
         align-items: center;
         height: 50px;
+    }
+    .nav_items {
+        padding-right: 20px;
+    }
+    .link_style:link {
+        text-decoration: none;
+    }
+    .link_style:visited {
+        color: black;
     }
 }
 
 @media only screen and (min-width: 750px) {
-    .nav {
-        justify-content: flex-end;
-    }
     .nav_items {
         padding-right: 50px;
+    }
+    .link_style:hover {
+        color: white;
     }
 }

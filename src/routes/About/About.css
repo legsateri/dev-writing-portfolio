@@ -1,0 +1,26 @@
+@media only screen and (min-width: 200px) {
+    main {
+        text-align: center;
+    }
+    header {
+        padding-top: 50px;
+    }
+    h1 {
+        font-family: lust-script, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .line_height {
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    header {
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
