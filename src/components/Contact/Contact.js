@@ -14,7 +14,7 @@ class Contact extends Component {
                     <h3 className='headline'>I'm currently available for work.</h3>
                     <p>If you have a project you want to get started, please get in touch.</p>
 
-                    <a href='mailto:allegrapusateri@gmail.com?subject=I want to hire you.'><button type='submit' className='email_button'>EMAIL ME</button></a>
+                    <a href='mailto:allegrapusateri@gmail.com?subject=I want to hire you.'><button type='submit' className='button'>EMAIL ME</button></a>
                 </div>
             </>
         )

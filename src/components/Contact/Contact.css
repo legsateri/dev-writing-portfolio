@@ -6,7 +6,7 @@
         padding-right: 10px;
         padding-left: 10px;
     }
-    .email_button {
+    .button {
         font-family: ff-basic-gothic-pro, sans-serif;
         width: 200px;
         padding: 0px;
@@ -27,8 +27,12 @@
         padding-right: 200px;
         padding-left: 200px;
     }
-    .email_button:hover {
+    .button:hover {
         width: 205px;
         height: 42px;
+    }
+
+    .button {
+        margin-bottom: 15px;
     }
 }
