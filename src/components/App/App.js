@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Navigation from '../Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
+import Coding from '../../routes/Coding/Coding';
 ////////////////////////////////////////////////////////////////////////////////
 
 function App() {
@@ -17,6 +18,11 @@ function App() {
         exact
         path={'/'}
         component={About}
+      />
+
+      <Route
+        path={'/coding'}
+        component={Coding}
       />
 
       <Footer />

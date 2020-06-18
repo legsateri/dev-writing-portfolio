@@ -17,7 +17,7 @@
     .skyline {
         width: 100%;
     }
-    .introduction, .contact {
+    .introduction {
         background-color: #F5EFE4;
         padding-top: 50px;
         padding-bottom: 50px;
@@ -54,18 +54,6 @@
     .headline {
         font-weight: 700;
     }
-    .email_button {
-        font-family: ff-basic-gothic-pro, sans-serif;
-        width: 200px;
-        padding: 0px;
-        height: 40px;
-        border: 1px solid #05A6A6;
-        background-color: #05A6A6;
-        color: #D6F5F7;
-        font-size: 16px;
-        margin-top: 20px;
-        margin-bottom: 50px;
-    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -78,7 +66,7 @@
     .skyline {
         width: 90%;
     }
-    .introduction, .abilities, .contact {
+    .introduction, .abilities {
         padding-top: 100px;
         padding-bottom: 100px;
         padding-right: 200px;
@@ -90,9 +78,5 @@
     }
     h2 {
         font-size: 40px;
-    }
-    .email_button:hover {
-        width: 205px;
-        height: 42px;
     }
 }

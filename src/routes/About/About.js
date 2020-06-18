@@ -1,6 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
+import Contact from '../../components/Contact/Contact';
+////////////////////////////////////////////////////////////////////////////////
 import './About.css';
 import background from './about-background.png'
 ////////////////////////////////////////////////////////////////////////////////
@@ -37,14 +39,7 @@ class About extends Component {
 
                     </div>
 
-                    <div className='contact'>
-                        <h2>GET IN TOUCH.</h2>
-
-                        <h3 className='headline'>I'm currently available for work.</h3>
-                        <p>If you have a project you want to get started, please get in touch.</p>
-
-                        <a href='mailto:allegrapusateri@gmail.com?subject=I want to hire you.'><button type='submit' className='email_button'>EMAIL ME</button></a>
-                    </div>
+                    <Contact />
                 </main>
             </>
         )
