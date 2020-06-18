@@ -6,6 +6,7 @@ import Contact from '../../components/Contact/Contact';
 import cover from './cover-to-cover.png';
 import foodie from './foodie-fight.png';
 import prompt from './loss-for-words.png';
+import work from './work.png'
 import './Coding.css';
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -19,7 +20,9 @@ class Coding extends Component {
                     </header>
 
                     <div className='introduction'>
-                        <span className='coding_circle'></span>
+                        <span className='coding_circle'>
+                            <img src={work} alt='Pencil icon' className='icon' />
+                        </span>
 
                         <h2>WHAT I'M UP TO.</h2>
                         <p>Here's my most recent work. For more, please visit my <a href='https://github.com/legsateri' target='_blank' rel='noopener noreferrer' className='inline_link' style={{ color: '#F1536' }}>Github</a>.</p>
