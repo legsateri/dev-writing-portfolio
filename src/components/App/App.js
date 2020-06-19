@@ -7,6 +7,7 @@ import Navigation from '../Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
 import Coding from '../../routes/Coding/Coding';
+import Writing from '../../routes/Writing/Writing';
 ////////////////////////////////////////////////////////////////////////////////
 
 function App() {
@@ -23,6 +24,11 @@ function App() {
       <Route
         path={'/coding'}
         component={Coding}
+      />
+
+      <Route 
+        path={'/writing'}
+        component={Writing}
       />
 
       <Footer />

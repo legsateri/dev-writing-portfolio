@@ -1,0 +1,21 @@
+@media only screen and (min-width: 200px) {
+    .travel_campaign, .website_redesign, .holiday_campaign {
+        padding: 10px 10px;
+        color: #D6F5F7;
+    }
+    .campgain-screenshots {
+        width: 75%;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .travel_campaign, .website_redesign, .holiday_campaign {
+        padding-bottom: 50px;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    .campgain-screenshots {
+        width: 50%;
+    }
+}

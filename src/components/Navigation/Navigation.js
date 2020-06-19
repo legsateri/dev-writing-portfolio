@@ -12,7 +12,7 @@ class Navigation extends Component {
                 <ul className="nav">
                     <li className="nav_items"><Link to='/' className='link_style' style={{ textDecoration: 'none' }}>About</Link></li>
                     <li className="nav_items"><Link to='/coding' className='link_style' style={{textDecoration: 'none'}}>Coding</Link></li>
-                    <li className="nav_items">Writing</li>
+                    <li className="nav_items"><Link to='/writing' className='link_style' style={{textDecoration: 'none'}}>Writing</Link></li>
                 </ul>
             </>
         )
