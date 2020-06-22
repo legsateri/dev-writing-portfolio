@@ -12,8 +12,8 @@ class TravelCampaign extends Component {
         return (
             <>
                 <div className='holiday_campaign'>
-                    <h2>TRAVEL CAMPAIGN</h2>
-                    <p>I worked with a designer to create a holiday campaign.</p>
+                    <h2>HOLIDAY CAMPAIGN</h2>
+                    <p>At Raise, I worked with a designer to create a holiday campaign. This was primarily a series of emails that capitalized on the fun, cutesy elements for the time of year so people could take advantage of sales and check everything off their Christmas lists.</p>
 
                     <div className='campaign_images'>
                         <img src={holidayone} alt='Holiday Email' className='campgain-screenshots' /><br />

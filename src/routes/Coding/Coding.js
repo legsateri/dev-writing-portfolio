@@ -35,7 +35,7 @@ class Coding extends Component {
                         <p className='technologies'>JQuery/HTML/CSS</p>
 
                         <br />
-                        <p>I created a single page quiz app so people can put their random knowledge to the test.</p>
+                        <p>I created a single page quiz app so people can put their random food knowledge to the test.</p>
                         <a href='https://github.com/legsateri/quiz-app' target='_blank' rel='noopener noreferrer'><button type='submit' className='button'>VIEW ON GITHUB</button></a>
                     </div>
 

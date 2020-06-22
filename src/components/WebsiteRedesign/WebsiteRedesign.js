@@ -14,7 +14,7 @@ class WebsiteRedesign extends Component {
             <>
                 <div className='website_redesign'>
                     <h2>WEBSITE REDESIGN</h2>
-                    <p>Worked with the brand to create a voice that is easier to digest and rewrite the website</p>
+                    <p>I worked with the Radiological Society of North America to redesign their website. The goal was to create a brand voice that is friendly and conversational, as well as easy to digest and understand, and then implement that voice across the website.</p>
 
                     <div className='campaign_images'>
                         <img src={redesignone} alt='Redesign' className='campgain-screenshots' /><br />
