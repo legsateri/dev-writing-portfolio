@@ -25,7 +25,7 @@ class Writing extends Component {
                         </span>
 
                         <h2>WHAT I'M UP TO.</h2>
-                        <p>Here's my most recent work. For more, please <a href='mailto:allegrapusateri@gmail.com?subject=I want to hire you.' className='inline_link' hover={{ color: '#F15361' }}>email me</a>.</p>
+                        <p>Here's my most recent work. You can find more <a href={`https://drive.google.com/drive/u/0/folders/1TcxP5L97bfUa2KT4CYvp4xJrIjZi57wS`} className='inline_link' hover={{ color: '#F15361' }}>here</a>.</p>
                     </div>
 
                     <WebsiteRedesign />
