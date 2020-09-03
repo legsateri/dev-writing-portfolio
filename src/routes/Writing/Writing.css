@@ -1,5 +1,5 @@
 @media only screen and (min-width: 200px) {
-    .travel_campaign, .website_redesign, .holiday_campaign {
+    .travel_campaign, .website_redesign, .b2b_articles, .weekly_emails {
         padding: 10px 10px;
         color: #D6F5F7;
     }
@@ -10,7 +10,7 @@
 }
 
 @media only screen and (min-width: 750px) {
-    .travel_campaign, .website_redesign, .holiday_campaign {
+    .travel_campaign, .website_redesign, .b2b_articles, .weekly_emails {
         padding-bottom: 50px;
         padding-right: 200px;
         padding-left: 200px;

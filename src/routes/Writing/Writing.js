@@ -2,9 +2,10 @@
 import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
-import HolidayCampaign from '../../components/HolidayCampaign/HolidayCampaign';
+import B2BArticles from '../../components/B2BArticles/B2BArticles';
 import TravelCampaign from '../../components/TravelCampaign/TravelCampaign';
 import WebsiteRedesign from '../../components/WebsiteRedesign/WebsiteRedesign';
+import WeeklyEmails from '../../components/WeeklyEmails/WeeklyEmails';
 ////////////////////////////////////////////////////////////////////////////////
 import work from '../Coding/work.png';
 import './Writing.css';
@@ -32,7 +33,9 @@ class Writing extends Component {
 
                     <TravelCampaign />
 
-                    <HolidayCampaign />
+                    <WeeklyEmails />
+
+                    <B2BArticles />
 
                     <Contact />
                 </main>
