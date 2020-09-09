@@ -5,6 +5,7 @@ import Contact from '../../components/Contact/Contact';
 ////////////////////////////////////////////////////////////////////////////////
 import cover from './cover-to-cover.png';
 import foodie from './foodie-fight.png';
+import chicken from './chicken-tinder.png';
 import prompt from './loss-for-words.png';
 import work from './work.png'
 import './Coding.css';
@@ -26,6 +27,17 @@ class Coding extends Component {
 
                         <h2>WHAT I'M UP TO.</h2>
                         <p>Here's my most recent work. For more, please visit my <a href='https://github.com/legsateri' target='_blank' rel='noopener noreferrer' className='inline_link' style={{ color: '#F1536' }}>Github</a>.</p>
+                    </div>
+
+                    <div className='chicken_tinder'>
+                        <a href='https://chicken-tinder-app.now.sh/' target='_blank' rel='noopener noreferrer'><img src={chicken} alt='Chicken Tinder' className='app_screenshots' /></a>
+
+                        <h2>CHICKEN TINDER</h2>
+                        <p className='technologies'>React/Node/Postgres/SQL/Google Places API</p>
+
+                        <br />
+                        <p>This is my current work-in-progress. When completed, you will be able to partner with friends and either Yum! or Ew! restaurants until you find a match. Right now, users can create an account, start a group with friends, and search through restaurants. You can also use Chef Mode, which suggests recipes based on the current weather in your area.</p>
+                        <a href='https://github.com/legsateri/chicken-tinder-app' target='_blank' rel='noopener noreferrer'><button type='submit' className='button'>VIEW ON GITHUB</button></a>
                     </div>
 
                     <div className='food_quiz'>
