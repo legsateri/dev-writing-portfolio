@@ -29,21 +29,26 @@ class Coding extends Component {
 
                     <div className='coding_desktop'>
                         <div className='coding_flex'>
-                            <div className='work_block color_one'></div>
-                            <div className='work_block color_two'></div>
-                            <div className='work_block color_three'></div>
+                            <div className='work_block color_one'>
+                                <h2 className='project_header'>Chicken Tinder</h2>
+                            </div>
+
+                            <div className='work_block color_two'>
+                                <h2 className='project_header'>Loss For Words</h2>
+                            </div>
+
+                            <div className='work_block color_three'>
+                                <h2 className='project_header'>Cover to Cover</h2>
+                            </div>
                         </div>
 
                         <div className='coding_flex'>
-                            <div className='work_block color_four'></div>
-                            <div className='work_block color_five'></div>
-                            <div className='work_block color_six'></div>
-                        </div>
+                            <div className='work_block color_four'>
+                                <h2 className='project_header'>Foodie Fight Quiz</h2>
+                            </div>
 
-                        <div className='coding_flex'>
-                            <div className='work_block color_one'></div>
-                            <div className='work_block color_two'></div>
-                            <div className='work_block color_three'></div>
+                            <div className='work_block'></div>
+                            <div className='work_block'></div>
                         </div>
                     </div>
 
@@ -51,43 +56,44 @@ class Coding extends Component {
 
                     <div className='coding_tablet'>
                         <div className='coding_flex'>
-                            <div className='work_block color_one'></div>
-                            <div className='work_block color_two'></div>
+                            <div className='work_block color_one'>
+                                <h2 className='project_header'>Chicken Tinder</h2>
+                            </div>
+
+                            <div className='work_block color_two'>
+                                <h2 className='project_header'>Loss For Words</h2>
+                            </div>
                         </div>
 
                         <div className='coding_flex'>
-                            <div className='work_block color_three'></div>
-                            <div className='work_block color_four'></div>
-                        </div>
+                            <div className='work_block color_three'>
+                                <h2 className='project_header'>Cover to Cover</h2>
+                            </div>
 
-                        <div className='coding_flex'>
-                            <div className='work_block color_five'></div>
-                            <div className='work_block color_six'></div>
-                        </div>
-
-                        <div className='coding_flex'>
-                            <div className='work_block color_one'></div>
-                            <div className='work_block color_two'></div>
-                        </div>
-
-                        <div className='coding_flex'>
-                            <div className='work_block color_three'></div>
-                            <div className='work_block'></div>
+                            <div className='work_block color_four'>
+                                <h2 className='project_header'>Foodie Fight Quiz</h2>
+                            </div>
                         </div>
                     </div>
 
                     {/* MOBILE CONTENT/STYLING */}
 
                     <div className='coding_mobile'>
-                        <div className='work_block color_one'></div>
-                        <div className='work_block color_two'></div>
-                        <div className='work_block color_three'></div>
-                        <div className='work_block color_four'></div>
-                        <div className='work_block color_five'></div>
-                        <div className='work_block color_six'></div>
-                        <div className='work_block color_one'></div>
-                        <div className='work_block color_two'></div>
-                        <div className='work_block color_three'></div>
+                        <div className='work_block color_one'>
+                            <h2 className='project_header'>Chicken Tinder</h2>
+                        </div>
+
+                        <div className='work_block color_two'>
+                            <h2 className='project_header'>Loss For Words</h2>
+                        </div>
+
+                        <div className='work_block color_three'>
+                            <h2 className='project_header'>Cover to Cover</h2>
+                        </div>
+
+                        <div className='work_block color_four'>
+                            <h2 className='project_header'>Foodie Fight Quiz</h2>
+                        </div>
                     </div>
 
                     <Contact />
