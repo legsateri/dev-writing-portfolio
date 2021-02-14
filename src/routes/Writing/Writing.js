@@ -26,19 +26,76 @@ class Writing extends Component {
                         </span>
 
                         <h2>WHAT I'M UP TO.</h2>
-                        <p>Here's my most recent work. You can find more <a href={`https://drive.google.com/drive/u/0/folders/1TcxP5L97bfUa2KT4CYvp4xJrIjZi57wS`} className='inline_link' hover={{ color: '#F15361' }}>here</a>.</p>
+                        <p>Here's some of my most recent work. You can find more <a href={`https://drive.google.com/drive/u/0/folders/1TcxP5L97bfUa2KT4CYvp4xJrIjZi57wS`} className='inline_link' hover={{ color: '#F15361' }}>here</a>.</p>
                     </div>
 
-                    <WebsiteRedesign />
+                    {/* DESKTOP CONTENT/STYLING */}
 
-                    <TravelCampaign />
+                    <div className='writing_desktop'>
+                        <div className='writing_flex'>
+                            <div className='work_block color_one'></div>
+                            <div className='work_block color_two'></div>
+                            <div className='work_block color_three'></div>
+                        </div>
 
-                    <WeeklyEmails />
+                        <div className='writing_flex'>
+                            <div className='work_block color_four'></div>
+                            <div className='work_block color_five'></div>
+                            <div className='work_block color_six'></div>
+                        </div>
 
-                    <B2BArticles />
+                        <div className='writing_flex'>
+                            <div className='work_block color_one'></div>
+                            <div className='work_block color_two'></div>
+                            <div className='work_block color_three'></div>
+                        </div>
+                    </div>
 
-                    <Contact />
-                </main>
+                    {/* TABLET CONTENT/STYLING */}
+
+                    <div className='writing_tablet'>
+                        <div className='writing_flex'>
+                            <div className='work_block color_one'></div>
+                            <div className='work_block color_two'></div>
+                        </div>
+
+                        <div className='writing_flex'>
+                            <div className='work_block color_three'></div>
+                            <div className='work_block color_four'></div>
+                        </div>
+
+                        <div className='writing_flex'>
+                            <div className='work_block color_five'></div>
+                            <div className='work_block color_six'></div>
+                        </div>
+
+                        <div className='writing_flex'>
+                            <div className='work_block color_one'></div>
+                            <div className='work_block color_two'></div>
+                        </div>
+
+                        <div className='writing_flex'>
+                            <div className='work_block color_three'></div>
+                            <div className='work_block'></div>
+                        </div>
+                    </div>
+
+                    {/* MOBILE CONTENT/STYLING */}
+
+                    <div className='writing_mobile'>
+                        <div className='work_block color_one'></div>
+                        <div className='work_block color_two'></div>
+                        <div className='work_block color_three'></div>
+                        <div className='work_block color_four'></div>
+                        <div className='work_block color_five'></div>
+                        <div className='work_block color_six'></div>
+                        <div className='work_block color_one'></div>
+                        <div className='work_block color_two'></div>
+                        <div className='work_block color_three'></div>
+                    </div>
+
+                <Contact />
+            </main>
             </>
         )
     }

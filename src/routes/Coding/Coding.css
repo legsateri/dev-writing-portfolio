@@ -1,3 +1,10 @@
+.coding_flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0, 0;
+    padding: 0, 0;
+}
+
 @media only screen and (min-width: 200px) {
     .work_header {
         padding-bottom: 75px;
@@ -18,25 +25,6 @@
     .inline_link:visited {
         color: #05A6A6;
     }
-    .chicken_tinder, .cover_to_cover {
-        background-color: #589B71;
-    }
-    .food_quiz {
-        background-color: #925DA4;
-    }
-    .loss_for_words {
-        background-color: #D14758;
-    }
-    .food_quiz, .loss_for_words, .cover_to_cover, .chicken_tinder {
-        padding: 10px 10px;
-        color: #D6F5F7;
-    }
-    .technologies {
-        line-height: 0;
-    }
-    .app_screenshots {
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -47,12 +35,37 @@
     .work_header {
         padding-bottom: 100px;
     }
-    .food_quiz, .loss_for_words, .cover_to_cover, .chicken_tinder {
-        padding-bottom: 50px;
-        padding-right: 200px;
-        padding-left: 200px;
+}
+
+@media only screen and (max-width: 749px) {
+    .coding_desktop {
+        display: none;
     }
-    .app_screenshots:hover {
-        width: 102%;
+    .coding_mobile {
+        display: none;
+    }
+    .coding_tablet {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 740px) {
+    .coding_tablet {
+        display: none;
+    }
+    .coding_mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .coding_desktop {
+        display: none;
+    }
+    .coding_tablet {
+        display: none;
+    }
+    .coding_mobile {
+        display: inline;
     }
 }

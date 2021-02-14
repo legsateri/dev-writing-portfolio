@@ -1,21 +1,68 @@
-@media only screen and (min-width: 200px) {
-    .travel_campaign, .website_redesign, .b2b_articles, .weekly_emails {
-        padding: 10px 10px;
-        color: #D6F5F7;
+.writing_flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0, 0;
+    padding: 0, 0;
+}
+
+.work_block {
+    height: 300px;
+    width: 100%;
+}
+
+.color_one {
+    background-color: #5C157D;
+}
+
+.color_two {
+    background-color: #589B71;
+}
+
+.color_three {
+    background-color: #D14758;
+}
+
+.color_four {
+    background-color: #05A6A6;
+}
+
+.color_five {
+    background-color: #F15361;
+}
+
+.color_six {
+    background-color: #FE7600;
+}
+
+@media only screen and (max-width: 749px) {
+    .writing_desktop {
+        display: none;
     }
-    .campgain-screenshots {
-        width: 75%;
-        padding-bottom: 30px;
+    .writing_mobile {
+        display: none;
+    }
+    .writing_tablet {
+        display: inline;
     }
 }
 
-@media only screen and (min-width: 750px) {
-    .travel_campaign, .website_redesign, .b2b_articles, .weekly_emails {
-        padding-bottom: 50px;
-        padding-right: 200px;
-        padding-left: 200px;
+@media only screen and (min-width: 740px) {
+    .writing_tablet {
+        display: none;
     }
-    .campgain-screenshots {
-        width: 50%;
+    .writing_mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .writing_desktop {
+        display: none;
+    }
+    .writing_tablet {
+        display: none;
+    }
+    .writing_mobile {
+        display: inline;
     }
 }
