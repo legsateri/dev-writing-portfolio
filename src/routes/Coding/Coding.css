@@ -1,3 +1,11 @@
+.coding_tablet {
+    display: none;
+}
+
+.coding_mobile {
+    display: none;
+}
+
 .coding_flex {
     display: flex;
     justify-content: space-evenly;

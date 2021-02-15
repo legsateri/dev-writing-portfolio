@@ -3,6 +3,15 @@ import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
 ////////////////////////////////////////////////////////////////////////////////
+import b2b from './b2b.png';
+import barrier from './barrier.png';
+import email from './email.png';
+import holiday from './holiday.png';
+import homebound from './homebound.png';
+import rebrand from './rebrand.png';
+import rsna from './rsna.png';
+import travel from './travel.png';
+import vida from './vida.png';
 import work from '../Coding/work.png';
 import './Writing.css';
 ////////////////////////////////////////////////////////////////////////////////
@@ -31,16 +40,19 @@ class Writing extends Component {
                         <div className='writing_flex'>
                             <div className='work_block color_one'>
                                 <h2 className='project_header'>Barrier</h2>
+                                <img src={barrier} alt='Barrier Logo' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
 
                             <div className='work_block color_two'>
                                 <h2 className='project_header'>Vida's Angels</h2>
-                                <p className='services'>Copywriting</p>
+                                <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting, UX</p>
                             </div>
 
                             <div className='work_block color_three'>
                                 <h2 className='project_header'>SD308</h2>
+                                <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Editing</p>
                             </div>
                         </div>
@@ -48,33 +60,39 @@ class Writing extends Component {
                         <div className='writing_flex'>
                             <div className='work_block color_four'>
                                 <h2 className='project_header'>RSNA</h2>
+                                <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Editing</p>
                             </div>
 
                             <div className='work_block color_five'>
                                 <h2 className='project_header'>Raise: Travel</h2>
+                                <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Project Management</p>
                             </div>
 
-                            <div className='work_block color_six'>
+                            <div className='work_block color_one'>
                                 <h2 className='project_header'>Raise: Rebrand</h2>
+                                <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
                         </div>
 
                         <div className='writing_flex'>
-                            <div className='work_block color_one'>
+                            <div className='work_block color_two'>
                                 <h2 className='project_header'>Raise: Emails</h2>
+                                <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Art Direction</p>
                             </div>
 
-                            <div className='work_block color_two'>
+                            <div className='work_block color_three'>
                                 <h2 className='project_header'>Raise: Holiday</h2>
+                                <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
 
-                            <div className='work_block color_three'>
+                            <div className='work_block color_four'>
                                 <h2 className='project_header'>Raise: B2B Articles</h2>
+                                <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Editing</p>
                             </div>
                         </div>
@@ -86,11 +104,13 @@ class Writing extends Component {
                         <div className='writing_flex'>
                             <div className='work_block color_one'>
                                 <h2 className='project_header'>Barrier</h2>
+                                <img src={barrier} alt='Barrier Logo' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
 
                             <div className='work_block color_two'>
                                 <h2 className='project_header'>Vida's Angels</h2>
+                                <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
                         </div>
@@ -98,11 +118,13 @@ class Writing extends Component {
                         <div className='writing_flex'>
                             <div className='work_block color_three'>
                                 <h2 className='project_header'>SD308</h2>
+                                <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Editing</p>
                             </div>
 
                             <div className='work_block color_four'>
                                 <h2 className='project_header'>RSNA</h2>
+                                <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Editing</p>
                             </div>
                         </div>
@@ -110,30 +132,35 @@ class Writing extends Component {
                         <div className='writing_flex'>
                             <div className='work_block color_five'>
                                 <h2 className='project_header'>Raise: Travel</h2>
+                                <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Project Management</p>
                             </div>
 
-                            <div className='work_block color_six'>
+                            <div className='work_block color_one'>
                                 <h2 className='project_header'>Raise: Rebrand</h2>
+                                <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
                         </div>
 
                         <div className='writing_flex'>
-                            <div className='work_block color_one'>
+                            <div className='work_block color_two'>
                                 <h2 className='project_header'>Raise: Emails</h2>
+                                <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Art Direction</p>
                             </div>
 
-                            <div className='work_block color_two'>
+                            <div className='work_block color_three'>
                                 <h2 className='project_header'>Raise: Holiday</h2>
+                                <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting</p>
                             </div>
                         </div>
 
                         <div className='writing_flex'>
-                            <div className='work_block color_three'>
+                            <div className='work_block color_four'>
                                 <h2 className='project_header'>Raise: B2B Articles</h2>
+                                <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
                                 <p className='services'>Copywriting, Editing</p>
                             </div>
 
@@ -146,46 +173,55 @@ class Writing extends Component {
                     <div className='writing_mobile'>
                         <div className='work_block color_one'>
                             <h2 className='project_header'>Barrier</h2>
+                            <img src={barrier} alt='Barrier Logo' className='brand_image' />
                             <p className='services'>Copywriting</p>
                         </div>
 
                         <div className='work_block color_two'>
                             <h2 className='project_header'>Vida's Angels</h2>
+                            <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
                             <p className='services'>Copywriting</p>
                         </div>
 
                         <div className='work_block color_three'>
                             <h2 className='project_header'>SD308</h2>
+                            <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
                             <p className='services'>Copywriting, Editing</p>
                         </div>
 
                         <div className='work_block color_four'>
                             <h2 className='project_header'>RSNA</h2>
+                            <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
                             <p className='services'>Copywriting, Editing</p>
                         </div>
 
                         <div className='work_block color_five'>
                             <h2 className='project_header'>Raise: Travel</h2>
+                            <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
                             <p className='services'>Copywriting, Project Management</p>
                         </div>
 
-                        <div className='work_block color_six'>
-                            <h2 className='project_header'>Raise: Rebrand</h2>
-                            <p className='services'>Copywriting</p>
-                        </div>
-
                         <div className='work_block color_one'>
-                            <h2 className='project_header'>Raise: Emails</h2>
-                            <p className='services'>Copywriting, Art Direction</p>
+                            <h2 className='project_header'>Raise: Rebrand</h2>
+                            <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
+                            <p className='services'>Copywriting</p>
                         </div>
 
                         <div className='work_block color_two'>
-                            <h2 className='project_header'>Raise: Holiday</h2>
-                            <p className='services'>Copywriting</p>
+                            <h2 className='project_header'>Raise: Emails</h2>
+                            <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
+                            <p className='services'>Copywriting, Art Direction</p>
                         </div>
 
                         <div className='work_block color_three'>
+                            <h2 className='project_header'>Raise: Holiday</h2>
+                            <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
+                            <p className='services'>Copywriting</p>
+                        </div>
+
+                        <div className='work_block color_four'>
                             <h2 className='project_header'>Raise: B2B Articles</h2>
+                            <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
                             <p className='services'>Copywriting, Editing</p>
                         </div>
                     </div>
