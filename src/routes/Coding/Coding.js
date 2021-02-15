@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
 ////////////////////////////////////////////////////////////////////////////////
-import work from './work.png'
+import chicken from './chicken.png';
+import cover from './cover.png';
+import quiz from './quiz.png';
+import words from './words.png';
+import work from './work.png';
 import './Coding.css';
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -31,20 +35,28 @@ class Coding extends Component {
                         <div className='coding_flex'>
                             <div className='work_block color_one'>
                                 <h2 className='project_header'>Chicken Tinder</h2>
+                                <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
                             </div>
 
                             <div className='work_block color_two'>
                                 <h2 className='project_header'>Loss For Words</h2>
+                                <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
                             </div>
 
                             <div className='work_block color_three'>
                                 <h2 className='project_header'>Cover to Cover</h2>
+                                <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
                             </div>
                         </div>
 
                         <div className='coding_flex'>
                             <div className='work_block color_four'>
                                 <h2 className='project_header'>Foodie Fight Quiz</h2>
+                                <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
+                                <p className='services'>UX, Frontend</p>
                             </div>
 
                             <div className='work_block'></div>
@@ -58,20 +70,28 @@ class Coding extends Component {
                         <div className='coding_flex'>
                             <div className='work_block color_one'>
                                 <h2 className='project_header'>Chicken Tinder</h2>
+                                <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
                             </div>
 
                             <div className='work_block color_two'>
                                 <h2 className='project_header'>Loss For Words</h2>
+                                <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
                             </div>
                         </div>
 
                         <div className='coding_flex'>
                             <div className='work_block color_three'>
                                 <h2 className='project_header'>Cover to Cover</h2>
+                                <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
                             </div>
 
                             <div className='work_block color_four'>
                                 <h2 className='project_header'>Foodie Fight Quiz</h2>
+                                <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
+                                <p className='services'>UX, Frontend</p>
                             </div>
                         </div>
                     </div>
@@ -81,18 +101,26 @@ class Coding extends Component {
                     <div className='coding_mobile'>
                         <div className='work_block color_one'>
                             <h2 className='project_header'>Chicken Tinder</h2>
+                            <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
+                            <p className='services'>UX, Backend, Frontend</p>
                         </div>
 
                         <div className='work_block color_two'>
                             <h2 className='project_header'>Loss For Words</h2>
+                            <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
+                            <p className='services'>UX, Backend, Frontend</p>
                         </div>
 
                         <div className='work_block color_three'>
                             <h2 className='project_header'>Cover to Cover</h2>
+                            <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
+                            <p className='services'>UX, Backend, Frontend</p>
                         </div>
 
                         <div className='work_block color_four'>
                             <h2 className='project_header'>Foodie Fight Quiz</h2>
+                            <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
+                            <p className='services'>UX, Frontend</p>
                         </div>
                     </div>
 
