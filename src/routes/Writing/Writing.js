@@ -1,7 +1,9 @@
 ////////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
+import Navigation from '../../components/Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import b2b from './b2b.png';
 import barrier from './barrier.png';
@@ -21,6 +23,8 @@ class Writing extends Component {
         return (
             <>
                 <main>
+                    <Navigation />
+
                     <header className='work_header'>
                         <h1>Writing Work</h1>
                     </header>
@@ -45,9 +49,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_two'>
-                                <h2 className='project_header'>Vida's Angels</h2>
-                                <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, UX</p>
+                                <Link to='/writing/vidas-angels' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Vida's Angels</h2>
+                                    <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, UX</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_three'>

@@ -3,18 +3,16 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 ////////////////////////////////////////////////////////////////////////////////
 import Footer from '../Footer/Footer';
-import Navigation from '../Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
 import Coding from '../../routes/Coding/Coding';
+import Vida from '../../routes/Vida/Vida';
 import Writing from '../../routes/Writing/Writing';
 ////////////////////////////////////////////////////////////////////////////////
 
 function App() {
   return (
     <main>
-      <Navigation />
-
       <Route
         exact
         path={'/'}
@@ -27,6 +25,12 @@ function App() {
       />
 
       <Route 
+        path={'/writing/vidas-angels'}
+        component={Vida}
+      />
+
+      <Route 
+        exact
         path={'/writing'}
         component={Writing}
       />

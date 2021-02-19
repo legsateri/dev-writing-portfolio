@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
+import Navigation from '../../components/Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import background from './about-background.png';
 import computer from './computer.png';
@@ -15,7 +16,9 @@ class About extends Component {
         return (
             <>
                 <main>
-                    <header className='line_height'>
+                <Navigation />
+
+                    <header className='line_height about_header'>
                         <h1>I'm Allegra,</h1>
                         <p>a web developer and copywriter.</p>
 

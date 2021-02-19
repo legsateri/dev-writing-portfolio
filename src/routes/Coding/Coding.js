@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
+import Navigation from '../../components/Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
 import chicken from './chicken.png';
 import cover from './cover.png';
@@ -16,6 +17,8 @@ class Coding extends Component {
         return (
             <>
                 <main>
+                    <Navigation />
+
                     <header className='work_header'>
                         <h1>Coding Work</h1>
                     </header>
