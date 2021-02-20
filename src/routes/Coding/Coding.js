@@ -1,5 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 ////////////////////////////////////////////////////////////////////////////////
 import Contact from '../../components/Contact/Contact';
 import Navigation from '../../components/Navigation/Navigation';
@@ -43,15 +44,19 @@ class Coding extends Component {
                             </div>
 
                             <div className='work_block color_two'>
-                                <h2 className='project_header'>Loss For Words</h2>
-                                <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
-                                <p className='services'>UX, Backend, Frontend</p>
+                                <Link to='/coding/loss-for-words' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Loss For Words</h2>
+                                    <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Backend, Frontend</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_three'>
-                                <h2 className='project_header'>Cover to Cover</h2>
-                                <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
-                                <p className='services'>UX, Backend, Frontend</p>
+                                <Link to='/coding/cover-to-cover' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Cover to Cover</h2>
+                                    <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Backend, Frontend</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -78,17 +83,21 @@ class Coding extends Component {
                             </div>
 
                             <div className='work_block color_two'>
-                                <h2 className='project_header'>Loss For Words</h2>
-                                <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
-                                <p className='services'>UX, Backend, Frontend</p>
+                                <Link to='/coding/loss-for-words' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Loss For Words</h2>
+                                    <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Backend, Frontend</p>
+                                </Link>
                             </div>
                         </div>
 
                         <div className='coding_flex'>
                             <div className='work_block color_three'>
-                                <h2 className='project_header'>Cover to Cover</h2>
-                                <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
-                                <p className='services'>UX, Backend, Frontend</p>
+                                <Link to='/coding/cover-to-cover' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Cover to Cover</h2>
+                                    <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Backend, Frontend</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_four'>
@@ -109,15 +118,19 @@ class Coding extends Component {
                         </div>
 
                         <div className='work_block color_two'>
-                            <h2 className='project_header'>Loss For Words</h2>
-                            <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
-                            <p className='services'>UX, Backend, Frontend</p>
+                            <Link to='/coding/loss-for-words' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Loss For Words</h2>
+                                <img src={words} alt='Loss For Words Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_three'>
-                            <h2 className='project_header'>Cover to Cover</h2>
-                            <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
-                            <p className='services'>UX, Backend, Frontend</p>
+                            <Link to='/coding/cover-to-cover' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Cover to Cover</h2>
+                                <img src={cover} alt='Cover to Cover Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_four'>

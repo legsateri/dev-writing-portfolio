@@ -1,0 +1,23 @@
+.blue_copy_color {
+    color: #F5EFE4;
+}
+
+.blue_button {
+    border: 1px solid #05A6A6;
+    background-color: #05A6A6;
+}
+
+@media only screen and (min-width: 200px) {
+    .blue_copy_color:link {
+        text-decoration: none;
+    }
+    .blue_copy_color:visited {
+        color: #F5EFE4;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .blue_copy_color:hover {
+        color: #5C157D;
+    }
+}

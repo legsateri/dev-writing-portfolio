@@ -57,11 +57,14 @@ h3 {
     width: 200px;
     padding: 0px;
     height: 40px;
-    border: 1px solid #5C157D;
-    background-color: #5C157D;
     color: #F5EFE4;
     font-size: 16px;
     margin-top: 35px;
+}
+
+.purple_button {
+    border: 1px solid #5C157D;
+    background-color: #5C157D;
 }
 
 @media only screen and (min-width: 200px) {

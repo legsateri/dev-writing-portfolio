@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
 import Coding from '../../routes/Coding/Coding';
+import CoverToCover from '../../routes/CoverToCover/CoverToCover';
 import LossForWords from '../../routes/LossForWords/LossForWords';
 import RaiseEmails from '../../routes/RaiseEmails/RaiseEmails';
 import Vida from '../../routes/Vida/Vida';
@@ -25,6 +26,11 @@ function App() {
         exact
         path={'/coding'}
         component={Coding}
+      />
+
+      <Route
+        path={'/coding/cover-to-cover'}
+        component={CoverToCover}
       />
 
       <Route
