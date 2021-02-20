@@ -16,7 +16,6 @@ import travel from './travel.png';
 import vida from './vida.png';
 import work from '../Coding/work.png';
 import './Writing.css';
-import CoverToCover from '../CoverToCover/CoverToCover';
 ////////////////////////////////////////////////////////////////////////////////
 
 class Writing extends Component {
@@ -44,9 +43,11 @@ class Writing extends Component {
                     <div className='writing_desktop'>
                         <div className='writing_flex'>
                             <div className='work_block color_one'>
-                                <h2 className='project_header'>Barrier</h2>
-                                <img src={barrier} alt='Barrier Logo' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/barrier' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Barrier</h2>
+                                    <img src={barrier} alt='Barrier Logo' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_two'>
@@ -116,9 +117,11 @@ class Writing extends Component {
                     <div className='writing_tablet'>
                         <div className='writing_flex'>
                             <div className='work_block color_one'>
-                                <h2 className='project_header'>Barrier</h2>
-                                <img src={barrier} alt='Barrier Logo' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/barrier' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Barrier</h2>
+                                    <img src={barrier} alt='Barrier Logo' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_two'>
@@ -193,9 +196,11 @@ class Writing extends Component {
 
                     <div className='writing_mobile'>
                         <div className='work_block color_one'>
-                            <h2 className='project_header'>Barrier</h2>
-                            <img src={barrier} alt='Barrier Logo' className='brand_image' />
-                            <p className='services'>Copywriting</p>
+                            <Link to='/writing/barrier' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Barrier</h2>
+                                <img src={barrier} alt='Barrier Logo' className='brand_image' />
+                                <p className='services'>Copywriting</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_two'>

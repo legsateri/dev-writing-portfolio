@@ -1,0 +1,35 @@
+.pink_copy_color {
+    color: #F5EFE4;
+}
+
+.pink_button {
+    border: 1px solid #F15361;
+    background-color: #F15361;
+}
+
+.barrier_project_page {
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 200px) {
+    .pink_copy_color:link {
+        text-decoration: none;
+    }
+    .pink_copy_color:visited {
+        color: #F5EFE4;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .pink_copy_color:hover {
+        color: #FE7600;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .barrier_project_page {
+        width: 50%;
+    }
+}
