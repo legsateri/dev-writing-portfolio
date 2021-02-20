@@ -109,9 +109,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_four'>
-                                <h2 className='project_header'>Raise: B2B Articles</h2>
-                                <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Editing</p>
+                                <Link to='/writing/raise-b2b' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: B2B Articles</h2>
+                                    <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Editing</p>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -191,9 +193,11 @@ class Writing extends Component {
 
                         <div className='writing_flex'>
                             <div className='work_block color_four'>
-                                <h2 className='project_header'>Raise: B2B Articles</h2>
-                                <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Editing</p>
+                                <Link to='/writing/raise-b2b' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: B2B Articles</h2>
+                                    <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Editing</p>
+                                </Link>
                             </div>
 
                             <div className='work_block'></div>
@@ -266,9 +270,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_four'>
-                            <h2 className='project_header'>Raise: B2B Articles</h2>
-                            <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting, Editing</p>
+                            <Link to='/writing/raise-b2b' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Raise: B2B Articles</h2>
+                                <img src={b2b} alt='B2B Articles Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting, Editing</p>
+                            </Link>
                         </div>
                     </div>
 

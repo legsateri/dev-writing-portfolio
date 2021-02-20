@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
+import B2BArticles from '../../routes/B2BArticles/B2BArticles';
 import Barrier from '../../routes/Barrier/Barrier';
 import ChickenTinder from '../../routes/ChickenTinder/ChickenTinder';
 import Coding from '../../routes/Coding/Coding';
@@ -26,6 +27,11 @@ function App() {
         exact
         path={'/'}
         component={About}
+      />
+
+      <Route
+        path={'/writing/raise-b2b'}
+        component={B2BArticles}
       />
 
       <Route
