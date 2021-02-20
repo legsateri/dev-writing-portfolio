@@ -10,6 +10,7 @@ import Barrier from '../../routes/Barrier/Barrier';
 import ChickenTinder from '../../routes/ChickenTinder/ChickenTinder';
 import Coding from '../../routes/Coding/Coding';
 import CoverToCover from '../../routes/CoverToCover/CoverToCover';
+import FoodieFight from '../../routes/FoodieFight/FoodieFight';
 import LossForWords from '../../routes/LossForWords/LossForWords';
 import RaiseEmails from '../../routes/RaiseEmails/RaiseEmails';
 import RaiseHoliday from '../../routes/RaiseHoliday/RaiseHoliday';
@@ -53,6 +54,11 @@ function App() {
       <Route
         path={'/coding/cover-to-cover'}
         component={CoverToCover}
+      />
+
+      <Route
+        path={'/coding/foodie-fight'}
+        component={FoodieFight}
       />
 
       <Route

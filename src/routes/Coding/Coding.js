@@ -64,9 +64,11 @@ class Coding extends Component {
 
                         <div className='coding_flex'>
                             <div className='work_block color_four'>
-                                <h2 className='project_header'>Foodie Fight Quiz</h2>
-                                <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
-                                <p className='services'>UX, Frontend</p>
+                                <Link to='/coding/foodie-fight' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Foodie Fight Quiz</h2>
+                                    <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Frontend</p>
+                                </Link>
                             </div>
 
                             <div className='work_block'></div>
@@ -105,9 +107,11 @@ class Coding extends Component {
                             </div>
 
                             <div className='work_block color_four'>
-                                <h2 className='project_header'>Foodie Fight Quiz</h2>
-                                <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
-                                <p className='services'>UX, Frontend</p>
+                                <Link to='/coding/foodie-fight' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Foodie Fight Quiz</h2>
+                                    <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Frontend</p>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -140,9 +144,11 @@ class Coding extends Component {
                         </div>
 
                         <div className='work_block color_four'>
-                            <h2 className='project_header'>Foodie Fight Quiz</h2>
-                            <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
-                            <p className='services'>UX, Frontend</p>
+                            <Link to='/coding/foodie-fight' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Foodie Fight Quiz</h2>
+                                <img src={quiz} alt='Foodie Quiz Screenshot' className='brand_image' />
+                                <p className='services'>UX, Frontend</p>
+                            </Link>
                         </div>
                     </div>
 
