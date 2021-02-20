@@ -85,9 +85,11 @@ class Writing extends Component {
 
                         <div className='writing_flex'>
                             <div className='work_block color_two'>
-                                <h2 className='project_header'>Raise: Emails</h2>
-                                <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Art Direction</p>
+                                <Link to='/writing/raise-emails' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Emails</h2>
+                                    <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Art Direction</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_three'>
@@ -153,9 +155,11 @@ class Writing extends Component {
 
                         <div className='writing_flex'>
                             <div className='work_block color_two'>
-                                <h2 className='project_header'>Raise: Emails</h2>
-                                <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Art Direction</p>
+                                <Link to='/writing/raise-emails' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Emails</h2>
+                                    <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Art Direction</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_three'>
@@ -218,9 +222,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_two'>
-                            <h2 className='project_header'>Raise: Emails</h2>
-                            <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting, Art Direction</p>
+                            <Link to='/writing/raise-emails' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Raise: Emails</h2>
+                                <img src={email} alt='Outlier Email Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting, Art Direction</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_three'>

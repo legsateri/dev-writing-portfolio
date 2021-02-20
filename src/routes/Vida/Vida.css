@@ -31,7 +31,7 @@
     padding-bottom: 80px;
 }
 
-.project_explanation, .project_photos, .button_section {
+.project_explanation, .project_photos {
     background-color: #F5EFE4;
 }
 
@@ -50,7 +50,6 @@ h3 {
 
 .supporting_image {
     width: 100%;
-    padding-bottom: 80px;
 }
 
 .launch_button {
@@ -62,8 +61,7 @@ h3 {
     background-color: #5C157D;
     color: #F5EFE4;
     font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 80px;
+    margin-top: 35px;
 }
 
 @media only screen and (min-width: 200px) {
@@ -86,9 +84,6 @@ h3 {
         padding-right: 5px;
         padding-left: 5px;
     }
-    .supporting_image {
-        padding-bottom: 50px;
-    }
 }
 
 @media only screen and (min-width: 275px) and (max-width: 500px) {
@@ -103,9 +98,6 @@ h3 {
         width: 275px;
         font-size: 18px;
     }
-    .supporting_image {
-        padding-bottom: 30px;
-    }
     .launch_button {
         margin-top: 40px;
     }
@@ -118,9 +110,6 @@ h3 {
     .work_p {
         width: 400px;
         font-size: 20px;
-    }
-    .supporting_image {
-        padding-bottom: 50px;
     }
 }
 

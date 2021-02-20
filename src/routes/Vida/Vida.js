@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 ////////////////////////////////////////////////////////////////////////////////
 import Navigation from '../../components/Navigation/Navigation';
 ////////////////////////////////////////////////////////////////////////////////
-import VidaImage from './vida.png';
-import VidaSupporting1 from './vida-supporting-1.png';
-import VidaSupporting2 from './vida-supporting-2.png';
+import VidaImage from '../Writing/vida.png';
+import VidaSupporting from './vida-supporting.png';
 import './Vida.css';
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -27,22 +26,20 @@ class Vida extends Component {
                     <div className="project_explanation">
                         <h3>THE PROJECT</h3>
                         <p className='work_p'>I was hired to get the Vida's Angels website up and running properly on Squarespace.
-                        This involved selecting a cleaner template that would stand out amongst competitors,
-                        a complete rewrite so the brand voice was more concise and effective at generating
-                        a sale, and organizing the email flow that is triggered by a purchase. I also
-                        assisted the business owner in selecting their primary analytics and setting them
-                        up through the Squarespace platform to track the performance of their products and
-                        their website, and taught her how to analyze them to determine what changes might
-                            need to be made in the future.</p>
+                            This involved selecting a cleaner template that would stand out amongst competitors, a complete rewrite 
+                            so the brand voice was more concise and effective at generating a sale, and organizing the email flow 
+                            that is triggered by a purchase. I also assisted the business owner in selecting their primary analytics 
+                            and setting them up through the Squarespace platform to track the performance of their products and their 
+                            website, and taught her how to analyze them to determine what changes might need to be made in the future.
+                        </p>
+
+                        <a href='https://www.vidasangels.com/home' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}>
+                            <button className='launch_button purple_button'>LAUNCH THE SITE</button>
+                        </a>
                     </div>
 
                     <div className="project_photos">
-                        <img src={VidaSupporting1} alt='Vida Angels Screenshot' className='supporting_image' />
-                        <img src={VidaSupporting2} alt='Vida Angels Screenshot' className='supporting_image' />
-                    </div>
-
-                    <div className="button_section">
-                        <button className='launch_button purple_button'>LAUNCH THE SITE</button>
+                        <img src={VidaSupporting} alt='Vida Angels Screenshot' className='supporting_image' />
                     </div>
                 </main>
             </>

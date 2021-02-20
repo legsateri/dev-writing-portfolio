@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
 import Coding from '../../routes/Coding/Coding';
+import RaiseEmails from '../../routes/RaiseEmails/RaiseEmails';
 import Vida from '../../routes/Vida/Vida';
 import Writing from '../../routes/Writing/Writing';
 ////////////////////////////////////////////////////////////////////////////////
@@ -24,12 +25,17 @@ function App() {
         component={Coding}
       />
 
-      <Route 
+      <Route
+        path={'/writing/raise-emails'}
+        component={RaiseEmails}
+      />
+
+      <Route
         path={'/writing/vidas-angels'}
         component={Vida}
       />
 
-      <Route 
+      <Route
         exact
         path={'/writing'}
         component={Writing}
