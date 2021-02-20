@@ -81,9 +81,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_one'>
-                                <h2 className='project_header'>Raise: Rebrand</h2>
-                                <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/raise-rebrand' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Rebrand</h2>
+                                    <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -157,9 +159,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_one'>
-                                <h2 className='project_header'>Raise: Rebrand</h2>
-                                <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/raise-rebrand' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Rebrand</h2>
+                                    <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -232,9 +236,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_one'>
-                            <h2 className='project_header'>Raise: Rebrand</h2>
-                            <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting</p>
+                            <Link to='/writing/raise-rebrand' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Raise: Rebrand</h2>
+                                <img src={rebrand} alt='Rebrand Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_two'>

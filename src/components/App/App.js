@@ -11,6 +11,7 @@ import CoverToCover from '../../routes/CoverToCover/CoverToCover';
 import LossForWords from '../../routes/LossForWords/LossForWords';
 import RaiseEmails from '../../routes/RaiseEmails/RaiseEmails';
 import RaiseHoliday from '../../routes/RaiseHoliday/RaiseHoliday';
+import Rebrand from '../../routes/Rebrand/Rebrand';
 import SD308 from '../../routes/SD308/SD308';
 import Vida from '../../routes/Vida/Vida';
 import Writing from '../../routes/Writing/Writing';
@@ -54,6 +55,11 @@ function App() {
       <Route
         path={'/writing/raise-holiday'}
         component={RaiseHoliday}
+      />
+
+      <Route
+        path={'/writing/raise-rebrand'}
+        component={Rebrand}
       />
 
       <Route
