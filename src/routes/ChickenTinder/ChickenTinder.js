@@ -19,7 +19,7 @@ class ChickenTinder extends Component {
 
                         <h1 className='work_h1'>Chicken Tinder</h1>
                         <img src={ChickenTinderImage} alt='Chicken Tinder Screenshot' className='project_page_image' />
-                        <h2 className='work_h2'>It's time to get the creative juices flowing.</h2>
+                        <h2 className='work_h2'>It's dinner time.</h2>
                     </header>
 
                     <div className="project_explanation">

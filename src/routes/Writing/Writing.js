@@ -69,9 +69,11 @@ class Writing extends Component {
 
                         <div className='writing_flex'>
                             <div className='work_block color_four'>
-                                <h2 className='project_header'>RSNA</h2>
-                                <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Editing</p>
+                                <Link to='/writing/rsna' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>RSNA</h2>
+                                    <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Editing</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_five'>
@@ -145,9 +147,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_four'>
-                                <h2 className='project_header'>RSNA</h2>
-                                <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Editing</p>
+                                <Link to='/writing/rsna' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>RSNA</h2>
+                                    <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Editing</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -224,9 +228,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_four'>
-                            <h2 className='project_header'>RSNA</h2>
-                            <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting, Editing</p>
+                            <Link to='/writing/rsna' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>RSNA</h2>
+                                <img src={rsna} alt='RSNA Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting, Editing</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_five'>

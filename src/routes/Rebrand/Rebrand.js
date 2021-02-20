@@ -20,7 +20,7 @@ class Rebrand extends Component {
 
                         <h1 className='work_h1'>Raise: Rebrand</h1>
                         <img src={RebrandImage} alt='Raise Rebrand Screenshot' className='rebrand_project_page' />
-                        <h2 className='work_h2'>Now that's a face lift.</h2>
+                        <h2 className='work_h2'>Gift cards have never looked better.</h2>
                     </header>
 
                     <div className="project_explanation">
