@@ -19,7 +19,7 @@ class RaiseEmails extends Component {
                         <Navigation color={color} />
 
                         <h1 className='work_h1'>Raise: Emails</h1>
-                        <img src={RaiseEmailImage} alt='Vida Angels Screenshot' className='project_page_image_vertical' />
+                        <img src={RaiseEmailImage} alt='Raise Emails Screenshot' className='project_page_image_vertical' />
                         <h2 className='work_h2'>Taking email testing to the next level.</h2>
                     </header>
 
@@ -39,7 +39,7 @@ class RaiseEmails extends Component {
                     </div>
 
                     <div className="project_photos">
-                        <img src={RaiseEmailSupporting} alt='Vida Angels Screenshot' className='supporting_image' />
+                        <img src={RaiseEmailSupporting} alt='Raise Emails Screenshot' className='supporting_image' />
                     </div>
                 </main>
             </>
