@@ -96,9 +96,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_three'>
-                                <h2 className='project_header'>Raise: Holiday</h2>
-                                <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/raise-holiday' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Holiday</h2>
+                                    <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_four'>
@@ -168,9 +170,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_three'>
-                                <h2 className='project_header'>Raise: Holiday</h2>
-                                <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/raise-holiday' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Holiday</h2>
+                                    <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -237,9 +241,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_three'>
-                            <h2 className='project_header'>Raise: Holiday</h2>
-                            <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting</p>
+                            <Link to='/writing/raise-holiday' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Raise: Holiday</h2>
+                                <img src={holiday} alt='Holiday Email Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_four'>
