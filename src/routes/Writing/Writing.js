@@ -115,9 +115,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_two'>
-                                <h2 className='project_header'>Vida's Angels</h2>
-                                <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting</p>
+                                <Link to='/writing/vidas-angels' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Vida's Angels</h2>
+                                    <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -184,9 +186,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_two'>
-                            <h2 className='project_header'>Vida's Angels</h2>
-                            <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting</p>
+                            <Link to='/writing/vidas-angels' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Vida's Angels</h2>
+                                <img src={vida} alt='Vida Angels Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_three'>
