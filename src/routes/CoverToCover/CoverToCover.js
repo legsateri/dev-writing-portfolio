@@ -20,7 +20,7 @@ class CoverToCover extends Component {
 
                         <h1 className='work_h1'>Cover To Cover</h1>
                         <img src={CoverToCoverImage} alt='Cover To Cover Screenshot' className='project_page_image' />
-                        <h2 className='work_h2'>It's time to get the creative juices flowing.</h2>
+                        <h2 className='work_h2'>Crack a good book.</h2>
                     </header>
 
                     <div className="project_explanation">

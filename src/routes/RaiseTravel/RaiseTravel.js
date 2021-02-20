@@ -20,7 +20,7 @@ class RaiseTravel extends Component {
 
                         <h1 className='work_h1'>Raise: Travel</h1>
                         <img src={RaiseTravelImage} alt='Raise Travel Screenshot' className='project_page_image_vertical' />
-                        <h2 className='work_h2'>Ringing in the holidays with gift cards.</h2>
+                        <h2 className='work_h2'>The best way to save everywhere you go.</h2>
                     </header>
 
                     <div className="project_explanation">

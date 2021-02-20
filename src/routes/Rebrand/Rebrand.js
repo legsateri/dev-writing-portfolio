@@ -27,8 +27,8 @@ class Rebrand extends Component {
                         <h3>THE PROJECT</h3>
                         <p className='work_p'>As all brands do at one point or another, there came a time to graduate the Raise 
                             brand tone and look to something more modern, entertaining, and relatable. As such, I worked with a 
-                            designer to while they explored how to make the brand stand out visually in a unique, consistent way 
-                            while keeping up with modern styles. 
+                            designer to add some pop to the brand language, while they explored how to make the brand stand out 
+                            visually in a unique, consistent way while keeping up with modern styles. 
                         </p>
 
                         <a href='https://drive.google.com/drive/u/0/folders/1DY24efjPMiVDj1tAbZTLyabKXHAV0rT5' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none' }}>
