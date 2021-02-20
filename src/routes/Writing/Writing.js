@@ -77,9 +77,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_five'>
-                                <h2 className='project_header'>Raise: Travel</h2>
-                                <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Project Management</p>
+                                <Link to='/writing/raise-travel' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Travel</h2>
+                                    <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Project Management</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_one'>
@@ -159,9 +161,11 @@ class Writing extends Component {
 
                         <div className='writing_flex'>
                             <div className='work_block color_five'>
-                                <h2 className='project_header'>Raise: Travel</h2>
-                                <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Project Management</p>
+                                <Link to='/writing/raise-travel' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Raise: Travel</h2>
+                                    <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Project Management</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_one'>
@@ -240,9 +244,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_five'>
-                            <h2 className='project_header'>Raise: Travel</h2>
-                            <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting, Project Management</p>
+                            <Link to='/writing/raise-travel' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Raise: Travel</h2>
+                                <img src={travel} alt='Raise Travel Campaign Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting, Project Management</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_one'>

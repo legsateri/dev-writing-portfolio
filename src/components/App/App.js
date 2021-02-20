@@ -14,6 +14,7 @@ import FoodieFight from '../../routes/FoodieFight/FoodieFight';
 import LossForWords from '../../routes/LossForWords/LossForWords';
 import RaiseEmails from '../../routes/RaiseEmails/RaiseEmails';
 import RaiseHoliday from '../../routes/RaiseHoliday/RaiseHoliday';
+import RaiseTravel from '../../routes/RaiseTravel/RaiseTravel';
 import Rebrand from '../../routes/Rebrand/Rebrand';
 import RSNA from '../../routes/RSNA/RSNA';
 import SD308 from '../../routes/SD308/SD308';
@@ -79,6 +80,11 @@ function App() {
       <Route
         path={'/writing/raise-rebrand'}
         component={Rebrand}
+      />
+
+      <Route
+        path={'/writing/raise-travel'}
+        component={RaiseTravel}
       />
 
       <Route
