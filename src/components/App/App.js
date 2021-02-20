@@ -9,6 +9,7 @@ import Coding from '../../routes/Coding/Coding';
 import CoverToCover from '../../routes/CoverToCover/CoverToCover';
 import LossForWords from '../../routes/LossForWords/LossForWords';
 import RaiseEmails from '../../routes/RaiseEmails/RaiseEmails';
+import SD308 from '../../routes/SD308/SD308';
 import Vida from '../../routes/Vida/Vida';
 import Writing from '../../routes/Writing/Writing';
 ////////////////////////////////////////////////////////////////////////////////
@@ -41,6 +42,11 @@ function App() {
       <Route
         path={'/writing/raise-emails'}
         component={RaiseEmails}
+      />
+
+      <Route
+        path={'/writing/sd308'}
+        component={SD308}
       />
 
       <Route

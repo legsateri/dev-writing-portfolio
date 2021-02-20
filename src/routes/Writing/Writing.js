@@ -16,6 +16,7 @@ import travel from './travel.png';
 import vida from './vida.png';
 import work from '../Coding/work.png';
 import './Writing.css';
+import CoverToCover from '../CoverToCover/CoverToCover';
 ////////////////////////////////////////////////////////////////////////////////
 
 class Writing extends Component {
@@ -57,9 +58,11 @@ class Writing extends Component {
                             </div>
 
                             <div className='work_block color_three'>
-                                <h2 className='project_header'>SD308</h2>
-                                <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Editing</p>
+                                <Link to='/writing/sd308' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>SD308</h2>
+                                    <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Editing</p>
+                                </Link>
                             </div>
                         </div>
 
@@ -127,9 +130,11 @@ class Writing extends Component {
 
                         <div className='writing_flex'>
                             <div className='work_block color_three'>
-                                <h2 className='project_header'>SD308</h2>
-                                <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
-                                <p className='services'>Copywriting, Editing</p>
+                                <Link to='/writing/sd308' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>SD308</h2>
+                                    <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
+                                    <p className='services'>Copywriting, Editing</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_four'>
@@ -198,9 +203,11 @@ class Writing extends Component {
                         </div>
 
                         <div className='work_block color_three'>
-                            <h2 className='project_header'>SD308</h2>
-                            <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
-                            <p className='services'>Copywriting, Editing</p>
+                            <Link to='/writing/sd308' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>SD308</h2>
+                                <img src={homebound} alt='Homebound Screenshot' className='brand_image' />
+                                <p className='services'>Copywriting, Editing</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_four'>
