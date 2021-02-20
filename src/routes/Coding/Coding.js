@@ -38,9 +38,11 @@ class Coding extends Component {
                     <div className='coding_desktop'>
                         <div className='coding_flex'>
                             <div className='work_block color_one'>
-                                <h2 className='project_header'>Chicken Tinder</h2>
-                                <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
-                                <p className='services'>UX, Backend, Frontend</p>
+                                <Link to='/coding/chicken-tinder' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Chicken Tinder</h2>
+                                    <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Backend, Frontend</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_two'>
@@ -77,9 +79,11 @@ class Coding extends Component {
                     <div className='coding_tablet'>
                         <div className='coding_flex'>
                             <div className='work_block color_one'>
-                                <h2 className='project_header'>Chicken Tinder</h2>
-                                <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
-                                <p className='services'>UX, Backend, Frontend</p>
+                                <Link to='/coding/chicken-tinder' style={{ textDecoration: 'none' }}>
+                                    <h2 className='project_header'>Chicken Tinder</h2>
+                                    <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
+                                    <p className='services'>UX, Backend, Frontend</p>
+                                </Link>
                             </div>
 
                             <div className='work_block color_two'>
@@ -112,9 +116,11 @@ class Coding extends Component {
 
                     <div className='coding_mobile'>
                         <div className='work_block color_one'>
-                            <h2 className='project_header'>Chicken Tinder</h2>
-                            <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
-                            <p className='services'>UX, Backend, Frontend</p>
+                            <Link to='/coding/chicken-tinder' style={{ textDecoration: 'none' }}>
+                                <h2 className='project_header'>Chicken Tinder</h2>
+                                <img src={chicken} alt='Chicken Tinder Screenshot' className='brand_image' />
+                                <p className='services'>UX, Backend, Frontend</p>
+                            </Link>
                         </div>
 
                         <div className='work_block color_two'>

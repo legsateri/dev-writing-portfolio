@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 ////////////////////////////////////////////////////////////////////////////////
 import About from '../../routes/About/About';
 import Barrier from '../../routes/Barrier/Barrier';
+import ChickenTinder from '../../routes/ChickenTinder/ChickenTinder';
 import Coding from '../../routes/Coding/Coding';
 import CoverToCover from '../../routes/CoverToCover/CoverToCover';
 import LossForWords from '../../routes/LossForWords/LossForWords';
@@ -29,6 +30,11 @@ function App() {
       <Route
         path={'/writing/barrier'}
         component={Barrier}
+      />
+
+      <Route
+        path={'/coding/chicken-tinder'}
+        component={ChickenTinder}
       />
 
       <Route
